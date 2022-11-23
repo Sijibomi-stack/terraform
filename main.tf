@@ -20,7 +20,7 @@ resource    "aws_instance" "webserver" {
     }
 }
 resource "aws_key_pair" "nginx" {
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCLfUSxiySGltn44jQVs3UoV0uzfUzcxInqfbeghVX8cVo0VwKXuc056s0VJMxtkjDVfvjjf51Y0JNBPgyFY30m/uPq+WTgzAA41V5vChWAk7SUycBxWJIyu00bBCNCUqWbV8nYpKQdKBf/tgW2yA2UN5Sh6Y+fjoa66oOSxe+JIURDjxak0QmbNnl9sKEUH5eiA59FsT9jcxvIpnX7xZc6h71rVXXsi/kQpTdJyS250K1IsXFsuXENXeB7u4G5G/+NQwldFWLZFSeQ+NzZmtCQfn795BA9REOlDoElqvjpvePrMHlw1dmeW03cZSru1U1O7hFo4VxLKKajRSZlhoAH"
+    public_key = ""
     
 }
 resource "aws_security_group" "ssh-access1" {
